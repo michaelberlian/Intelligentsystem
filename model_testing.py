@@ -15,7 +15,7 @@ def prepare (filepath):
 # do the prediction
 def predict(path):
     CATEGORIES = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",] 
-    model = tf.keras.models.load_model('1-conv-2-dense-2')
+    model = tf.keras.models.load_model('models/1-conv-2-dense')
     
     # x_test = tf.keras.utils.normalize(x_test, axis=1)
     
